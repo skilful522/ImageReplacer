@@ -21,7 +21,7 @@ body {
 }
 
 .controls {
-  display: flex;
+  color: white;
 }
 
 .controls > input {
@@ -83,9 +83,9 @@ input:focus + .slider {
 }
 
 input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
+  -webkit-transform: translateX(82px);
+  -ms-transform: translateX(82px);
+  transform: translateX(82px);
 }
 
 /* Rounded sliders */
@@ -95,4 +95,12 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+#resolution {
+  margin-left: 20px;
+}
+
+.resolutionWrapper {
+  display: flex;
 }
